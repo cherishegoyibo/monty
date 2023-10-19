@@ -56,19 +56,6 @@ void get_function(char *opcode, char *value, int line_counter, int format)
 	instruction_t ops_list[] = {
 		{"push", f_push},
 		{"pall", f_pall},
-		/*{"pint", print_top},
-		{"pop", pop_top},
-		{"nop", nop},
-		{"swap", swap_nodes},
-		{"add", add_nodes},
-		{"sub", sub_nodes},
-		{"div", div_nodes},
-		{"mul", mul_nodes},
-		{"mod", mod_nodes},
-		{"pchar", print_char},
-		{"pstr", print_str},
-		{"rotl", rotl},
-		{"rotr", rotr},*/
 		{NULL, NULL}
 	};
 
