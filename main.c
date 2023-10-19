@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	{
 		format = tokenize(buffer_line, line_number, format);
 		line_number++;
-		free(buffer_line);
+		/*free(buffer_line);*/
 	}
 
 	fclose(file);
