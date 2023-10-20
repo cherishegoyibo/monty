@@ -54,5 +54,7 @@ void add_queue(stack_t **new_node, unsigned int line_number);
 
 void f_push(stack_t **new_node, unsigned int line_counter);
 void f_pall(stack_t **stack, unsigned int line_counter);
+void f_pint(stack_t **stack, unsigned int line_counter);
+void f_pop(stack_t **stack, unsigned int line_counter);
 
 #endif

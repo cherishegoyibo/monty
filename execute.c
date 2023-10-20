@@ -56,6 +56,8 @@ void get_function(char *opcode, char *value, int line_counter, int format)
 	instruction_t ops_list[] = {
 		{"push", f_push},
 		{"pall", f_pall},
+		{"pint", f_pint},
+		{"pop", f_pop},
 		{NULL, NULL}
 	};
 
